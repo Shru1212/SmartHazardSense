@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HazardSense – Industrial Safety System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f6efe6;
+      color: #5a3d2b;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #b57a57;
+      color: #ffffff;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #6b3f2f;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>HazardSense</h1>
+  <p>Smart IoT-Based Industrial Safety and Security System</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Project Overview</h2>
+    <p>
+      HazardSense is an IoT-based industrial safety and security system designed
+      to detect and monitor hazardous conditions in industrial environments such
+      as factories, warehouses, and plants.
+    </p>
+    <p>
+      The system aims to reduce industrial accidents by enabling early detection,
+      secure data communication, and real-time monitoring.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Problem Addressed</h2>
+    <p>
+      Traditional industrial safety systems often lack real-time monitoring,
+      secure communication, and scalability. Delayed hazard detection and poor
+      alert mechanisms increase the risk of accidents and operational losses.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Proposed Solution</h2>
+    <p>
+      HazardSense integrates IoT sensors with secure communication protocols to
+      continuously monitor environmental conditions and alert authorities when
+      unsafe situations are detected.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Sensors and Components</h2>
+    <ul>
+      <li><strong>MQ2 Gas Sensor:</strong> Detects leakage of harmful or combustible gases</li>
+      <li><strong>DHT11 Sensor:</strong> Measures temperature and humidity</li>
+      <li><strong>ESP32:</strong> Microcontroller for sensor interfacing and communication</li>
+      <li><strong>PIR Sensor:</strong> Detects unauthorized access or intrusion</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Secure Communication using MQTT</h2>
+    <p>
+      Sensor data collected by the ESP32 is transmitted to the backend server
+      using the MQTT protocol. MQTT enables lightweight and real-time data
+      communication suitable for IoT systems.
+    </p>
+    <p>
+      To enhance security, AES encryption is applied before data transmission,
+      ensuring confidentiality and protection against unauthorized access.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>System Architecture</h2>
+    <ul>
+      <li>Sensors collect environmental data</li>
+      <li>ESP32 processes and encrypts sensor readings</li>
+      <li>Encrypted data is published via MQTT</li>
+      <li>Backend server receives and processes data</li>
+      <li>Dashboard displays real-time monitoring and alerts</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Multi-hazard detection (gas, fire, temperature, intrusion)</li>
+      <li>Secure MQTT-based communication</li>
+      <li>Real-time monitoring dashboard</li>
+      <li>Early warning and alert mechanism</li>
+      <li>Scalable and Industry 4.0 aligned design</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Conclusion</h2>
+    <p>
+      HazardSense demonstrates the effective integration of IoT, cybersecurity,
+      and real-time monitoring to improve industrial safety and security.
+      The project aligns with modern industrial requirements and provides a
+      scalable foundation for future enhancements.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  © 2025 HazardSense | VTU Mini / Major Project
+</footer>
+
+</body>
+</html>
